@@ -9,7 +9,7 @@ export const Navbar = () => {
       </div>
 
       <div className="flex items-center space-x-4 rounded-full border p-2 cursor-pointer">
-        <div className="text-white bg-custom-red px-3 border-red-400 border-2 rounded-full flex items-center justify-center p-2">
+        <div className="text-white bg-custom-red px-3 border-red-300 border-2 rounded-full flex items-center justify-center p-2">
           <div className="h-6 mr-1">
             <svg
               width="22"
