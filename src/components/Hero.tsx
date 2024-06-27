@@ -1,4 +1,3 @@
-import { Company } from "./Company";
 import { EditJob } from "./EditJob";
 import { JobPreview } from "./JodPreview";
 
