@@ -1,14 +1,15 @@
 import { AboutTheJob } from "./AboutTheJob";
-import { CompanyDesc } from "./CompanyDescription";
-import { Jobtitle } from "./JobTitle";
+import { CompanyDescription } from "./CompanyDescription";
+import { JobTitle } from "./JobTitle";
 import { Requirement } from "./Requirement";
+
 export const JobPreview = () => {
   return (
-    <>
-      <Jobtitle />
+    <div className="p-4">
+      <JobTitle />
       <Requirement />
       <AboutTheJob />
-      <CompanyDesc />
-    </>
+      <CompanyDescription />
+    </div>
   );
 };

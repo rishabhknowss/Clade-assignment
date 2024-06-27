@@ -97,9 +97,7 @@ export const EditPanel = () => {
                   />
                 </svg>
               </div>
-              <div className="ml-3 flex flex-col justify-center text-location-text">
-                Matches
-              </div>
+              <div className="ml-3 flex flex-col justify-center text-location-text">Matches</div>
             </div>
             <div className="font-bold flex flex-col justify-center">100</div>
           </div>
@@ -123,9 +121,7 @@ export const EditPanel = () => {
                   />
                 </svg>
               </div>
-              <div className="ml-3 flex flex-col justify-center text-location-text">
-                Messages
-              </div>
+              <div className="ml-3 flex flex-col justify-center text-location-text">Messages</div>
             </div>
             <div className="font-bold flex flex-col justify-center">147</div>
           </div>
@@ -156,9 +152,7 @@ export const EditPanel = () => {
                   />
                 </svg>
               </div>
-              <div className="ml-3 flex flex-col justify-center text-location-text">
-                Views
-              </div>
+              <div className="ml-3 flex flex-col justify-center text-location-text">Views</div>
             </div>
             <div className="font-bold flex flex-col justify-center ">800</div>
           </div>
