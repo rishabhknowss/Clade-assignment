@@ -27,10 +27,11 @@ export const Navbar = () => {
               />
             </svg>
           </div>
-          <div className="flex flex-col justify-center font-semibold">Jobs</div>
+          <div className="flex flex-col justify-center font-bold">Jobs</div>
         </div>
         <div className=" px-4 rounded-full flex items-center justify-center p-2  cursor-pointer ">
           <div className="h-6 mr-1">
+          
             <svg
               width="24"
               height="25"
@@ -52,11 +53,13 @@ export const Navbar = () => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="3" cy="3" r="3" fill="#DC4A2D" />
+                
               </svg>
+              <circle cx="3" cy="3" r="3" fill="#DC4A2D" />
+             
             </svg>
           </div>
-          <div className="text-nav-text-color font-medium">Messages</div>
+          <div className="text-nav-text-color font-bold">Messages</div>
         </div>
         <div className=" px-4 rounded-full flex items-center justify-center p-2  cursor-pointer">
           <div className="h-6 mr-1">
@@ -76,7 +79,7 @@ export const Navbar = () => {
               />
             </svg>
           </div>
-          <div className="text-nav-text-color font-medium">Payments</div>
+          <div className="text-nav-text-color font-bold">Payments</div>
         </div>
       </div>
 

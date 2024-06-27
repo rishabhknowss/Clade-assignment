@@ -1,8 +1,8 @@
 import logo from "../assets/image.png";
-export const Company = () => {
+export const CompanyDesc = () => {
   return (
     <>
-      <div className="border border-r-2">
+      <div className="">
         <div className="mt-8 mx-16">
           <div className="flex">
             <img src={logo} className="h-8 w-8 rounded-md"></img>
@@ -17,7 +17,6 @@ export const Company = () => {
                 <div className="my-2 text-sm text-black">1k-2k Exployees</div>
               </div>
               <div>
-                {" "}
                 <div>Sector</div>
                 <div className="my-2 text-sm text-black">
                   Information Technology,Infrastructure
@@ -45,7 +44,6 @@ export const Company = () => {
                 </div>
               </div>
             </div>
-            <div></div>
           </div>
         </div>
       </div>

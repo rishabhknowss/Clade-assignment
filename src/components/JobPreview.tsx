@@ -1,7 +1,7 @@
 import figma from "../assets/figma-logo.png";
 import illustrator from "../assets/illustrator-logo.png";
 import adobexd from "../assets/adobexd-logo.png";
-import { Company } from "./Company";
+import { CompanyDesc } from "./CompanyDesc";
 export const JobPreview = () => {
   const jobDescription = [
     { description: "Handle the UI/UX research design", key: 1 },
@@ -22,13 +22,13 @@ export const JobPreview = () => {
       <div className="border-b">
         <div className="mt-8 mx-16">
           <div className="flex">
-            <div className="flex flex-col justify-center font-bold text-3xl text-job-text-color">
+            <div className="flex flex-col justify-center font-job text-3xl text-job-text-color">
               Senior Product Designer
             </div>
             <div className="  flex flex-col justify-center">
               <div className=" h-1 w-1 rounded-full bg-title-text-color mx-2 font-extralight "></div>
             </div>
-            <div className="flex flex-col justify-center text-xs text-title-text-color ">
+            <div className="flex flex-col justify-center text-xs text-title-text-color font-semibold ">
               posted 2 days ago
             </div>
             <div className="flex flex-col justify-center">
@@ -66,7 +66,7 @@ export const JobPreview = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              <div>Delaware,USA</div>
+              <div className="font-semibold">Delaware,USA</div>
             </div>
 
             <div className="flex flex-col justify-center">
@@ -90,7 +90,7 @@ export const JobPreview = () => {
                   />
                 </svg>
               </div>
-              <div>$300k-$400k</div>
+              <div className="font-semibold">$300k-$400k</div>
             </div>
           </div>
 
@@ -99,42 +99,52 @@ export const JobPreview = () => {
         <div></div>
       </div>
       <div className=" border-b">
-        <div className="flex space-x-16 mx-16 my-6 text-xs text-title-text-color font-medium">
-          <div className="grid grid-cols-1">
-            <div>Skills Required</div>
-            <div className=" text-job-text-color mt-2 text-xs border rounded-md w-fit p-1 flex">
-              <div className="flex flex-col justify-center">
-                <img src={figma} className="h-3 w-3 mr-1"></img>
+        <div className="grid grid-cols-4 mx-16 my-6 text-xs text-title-text-color font-bold">
+          <div>
+            <div className="grid grid-cols-1">
+              <div>Skills Required</div>
+              <div className=" text-job-text-color mt-2 text-xs border rounded-md w-fit p-1 flex">
+                <div className="flex flex-col justify-center">
+                  <img src={figma} className="h-3 w-3 mr-1"></img>
+                </div>
+                <div>Figma</div>
               </div>
-              <div>Figma</div>
-            </div>
-            <div className=" text-job-text-color mt-2 text-xs border rounded-md w-fit p-1 flex">
-              <div className="flex flex-col justify-center">
-                <img src={illustrator} className="h-3 w-3 mr-1 "></img>
+              <div className=" text-job-text-color mt-2 text-xs border rounded-md w-fit p-1 flex">
+                <div className="flex flex-col justify-center">
+                  <img src={illustrator} className="h-3 w-3 mr-1 "></img>
+                </div>
+                <div>Adobe Illustrator</div>
               </div>
-              <div>Adobe Illustrator</div>
-            </div>
-            <div className=" text-job-text-color mt-2 text-xs border rounded-md w-fit p-1 flex">
-              <div className="flex flex-col justify-center">
-                <img src={adobexd} className="h-3 w-3 mr-1 "></img>
+              <div className=" text-job-text-color mt-2 text-xs border rounded-md w-fit p-1 flex">
+                <div className="flex flex-col justify-center">
+                  <img src={adobexd} className="h-3 w-3 mr-1 "></img>
+                </div>
+                <div>Adobe XD </div>
               </div>
-              <div>Adobe XD </div>
             </div>
           </div>
-          <div className="grid grid-cols-1">
-            <div>Preferred Language</div>
-            <div className="font-bold text-job-text-color text-sm">English</div>
-          </div>
-          <div className="grid grid-cols-1">
-            <div>Type</div>
-            <div className="font-bold text-job-text-color  text-sm">
-              Full Time
+          <div>
+            <div className="grid grid-cols-1">
+              <div>Preferred Language</div>
+              <div className="font-bold text-job-text-color text-sm">
+                English
+              </div>
             </div>
           </div>
-          <div className="grid grid-cols-1">
-            <div>Year of Experience</div>
-            <div className="font-bold text-job-text-color text-sm">
-              3+ Years of Experience
+          <div>
+            <div className="grid grid-cols-1">
+              <div>Type</div>
+              <div className="font-bold text-job-text-color  text-sm">
+                Full Time
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="grid grid-cols-1">
+              <div>Year of Experience</div>
+              <div className="font-bold text-job-text-color text-sm">
+                3+ Years of Experience
+              </div>
             </div>
           </div>
         </div>
@@ -192,7 +202,7 @@ export const JobPreview = () => {
         </div>
       </div>
       <div>
-        <Company></Company>
+        <CompanyDesc></CompanyDesc>
       </div>
     </div>
   );

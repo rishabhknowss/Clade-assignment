@@ -10,7 +10,12 @@ export default {
         "title-text-color": "#888888",
         "job-text-color": "#3D3D3D",
         "delete-bg": "#FEF4F2",
+        "location-text":"#5D5D5D"
       },
+      fontWeight : {
+        "job" : "1000",
+      
+      }
     },
   },
   plugins: [],
