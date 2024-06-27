@@ -31,7 +31,6 @@ export const Navbar = () => {
         </div>
         <div className=" px-4 rounded-full flex items-center justify-center p-2  cursor-pointer ">
           <div className="h-6 mr-1">
-          
             <svg
               width="24"
               height="25"
@@ -52,11 +51,8 @@ export const Navbar = () => {
                 viewBox="0 0 6 6"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-              >
-                
-              </svg>
+              ></svg>
               <circle cx="3" cy="3" r="3" fill="#DC4A2D" />
-             
             </svg>
           </div>
           <div className="text-nav-text-color font-bold">Messages</div>
