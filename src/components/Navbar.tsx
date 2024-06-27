@@ -20,15 +20,26 @@ export const Navbar = () => {
           >
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
               {isMenuOpen ? (
-                <path fillRule="evenodd" clipRule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+                />
               ) : (
-                <path fillRule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
+                <path
+                  fillRule="evenodd"
+                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                />
               )}
             </svg>
           </button>
         </div>
 
-        <div className={`w-full md:flex md:w-auto md:items-center ${isMenuOpen ? 'block' : 'hidden'} md:border rounded-full p-0 md:p-2`}>
+        <div
+          className={`w-full md:flex md:w-auto md:items-center ${
+            isMenuOpen ? "block" : "hidden"
+          } md:border rounded-full p-0 md:p-2`}
+        >
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 mt-4 md:mt-0">
             <div className="text-white bg-custom-red px-3 border-red-300 border-2 rounded-full flex items-center justify-center p-2 cursor-pointer">
               <div className="h-6 mr-1">
@@ -113,7 +124,11 @@ export const Navbar = () => {
               />
             </svg>
           </div>
-          <img src={logo} className="h-8 w-8 rounded-full cursor-pointer" alt="Profile" />
+          <img
+            src={logo}
+            className="h-8 w-8 rounded-full cursor-pointer"
+            alt="Profile"
+          />
           <div className="cursor-pointer">
             <svg
               width="12"

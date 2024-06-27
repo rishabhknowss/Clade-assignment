@@ -5,7 +5,7 @@ import { Requirement } from "./Requirement";
 
 export const JobPreview = () => {
   return (
-    <div className="p-4">
+    <div>
       <JobTitle />
       <Requirement />
       <AboutTheJob />

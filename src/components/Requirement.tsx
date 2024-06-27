@@ -32,13 +32,17 @@ export const Requirement = () => {
         <div>
           <div className="grid grid-cols-1">
             <div>Type</div>
-            <div className="font-bold text-job-text-color text-sm">Full Time</div>
+            <div className="font-bold text-job-text-color text-sm">
+              Full Time
+            </div>
           </div>
         </div>
         <div>
           <div className="grid grid-cols-1">
             <div>Experience</div>
-            <div className="font-bold text-job-text-color text-sm">7+ years</div>
+            <div className="font-bold text-job-text-color text-sm">
+              7+ years
+            </div>
           </div>
         </div>
       </div>

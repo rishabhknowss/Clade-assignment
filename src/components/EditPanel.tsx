@@ -2,7 +2,7 @@ export const EditPanel = () => {
   return (
     <>
       <div className="h-full border-l-2">
-        <div className="grid grid-cols-2 gap-3 my-8 mx-6 text-sm">
+        <div className="grid grid-cols-2 gap-3 my-10 mx-6 text-sm">
           <button className="border rounded-lg  text-custom-red border-custom-red flex justify-center p-2 bg-delete-bg">
             <div className="flex flex-col justify-center">
               <svg
@@ -97,7 +97,9 @@ export const EditPanel = () => {
                   />
                 </svg>
               </div>
-              <div className="ml-3 flex flex-col justify-center text-location-text">Matches</div>
+              <div className="ml-3 flex flex-col justify-center text-location-text">
+                Matches
+              </div>
             </div>
             <div className="font-bold flex flex-col justify-center">100</div>
           </div>
@@ -121,7 +123,9 @@ export const EditPanel = () => {
                   />
                 </svg>
               </div>
-              <div className="ml-3 flex flex-col justify-center text-location-text">Messages</div>
+              <div className="ml-3 flex flex-col justify-center text-location-text">
+                Messages
+              </div>
             </div>
             <div className="font-bold flex flex-col justify-center">147</div>
           </div>
@@ -152,7 +156,9 @@ export const EditPanel = () => {
                   />
                 </svg>
               </div>
-              <div className="ml-3 flex flex-col justify-center text-location-text">Views</div>
+              <div className="ml-3 flex flex-col justify-center text-location-text">
+                Views
+              </div>
             </div>
             <div className="font-bold flex flex-col justify-center ">800</div>
           </div>
