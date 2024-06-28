@@ -2,8 +2,18 @@
 
 ## Job Dashboard
 
-### ✅ Responsive
+![Alt text](image.png)
 
-### ✅ Pixel Perfect
+## Techstack
 
-### ✅ Clean Code
+- React.js 
+- Typescript
+- Tailwind
+
+## Checkpoints 
+
+### Responsive 
+
+### Pixel Perfect 
+
+### Clean Code 
