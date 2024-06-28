@@ -9,7 +9,7 @@ export const JobTitle = () => {
             <div className="font-job text-3xl text-job-text-color">
               Senior Product Designer
             </div>
-            <div className="flex items-center mt-2 lg:mt-0 lg:ml-4">
+            <div className="flex items-center mt-2 lg:mt-0 lg:ml-1">
               <div className="h-1 w-1 rounded-full bg-title-text-color mx-2 font-extralight"></div>
               <div className="text-xs text-title-text-color font-semibold">
                 posted 2 days ago
@@ -43,6 +43,10 @@ export const JobTitle = () => {
               </svg>
               <div className="font-semibold">Delaware, USA</div>
             </div>
+            <div className="flex items-center mt-2 lg:mt-0 ">
+              <div className="h-1 w-1 rounded-full bg-title-text-color  font-[100]"></div>
+              </div>
+            
             <div className="flex items-center space-x-2">
               <svg
                 width="24"
