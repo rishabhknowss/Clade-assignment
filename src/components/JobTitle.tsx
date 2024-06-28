@@ -1,4 +1,4 @@
-import { Open } from "./Badge-open";
+import { Open } from "./Badge";
 
 export const JobTitle = () => {
   return (

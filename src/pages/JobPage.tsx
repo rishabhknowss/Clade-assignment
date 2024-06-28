@@ -1,6 +1,6 @@
-import { EditPanel } from "./EditPanel";
-import { JobPreview } from "./JobPreview";
-import { TitleBar } from "./TitleBar";
+import { EditPanel } from "../components/EditPanel";
+import { JobPreview } from "../components/JobPreview";
+import { TitleBar } from "../components/TitleBar";
 
 export const JobPage = () => {
   return (

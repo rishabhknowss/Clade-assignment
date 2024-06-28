@@ -1,7 +1,9 @@
-# Clade Assignment 
+# Clade
 
-## Job Dashboard 
+## Job Dashboard
 
 ### ✅ Responsive
+
 ### ✅ Pixel Perfect
+
 ### ✅ Clean Code
